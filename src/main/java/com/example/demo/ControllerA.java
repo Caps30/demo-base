@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ControllerA {
     @GetMapping("/test1")
     public String test1() {
-        return "test1接口";
+        return "test2接口";
     }
 }
